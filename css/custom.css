@@ -1,0 +1,308 @@
+* {
+  font-family: 'Inter', Helvetica, sans-serif;
+  color: #383838;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+p {
+  letter-spacing: 0.015rem;
+  line-height: 1.8rem;
+}
+
+.bg-lightblue {
+  background-color: #f7fcff !important;
+}
+
+.bg-lightpeach {
+  background-color: #FFF7F5 !important;
+}
+
+.bg-lightyellow {
+  background-color: #fdfbf1 !important;
+}
+
+/* navbar */
+
+.navbar {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  font-weight: 200;
+  color: #383838;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color:#adadad;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+  font-size: 120%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #383838;
+  font-size: 80%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* nav - active page */
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+color: rgba(0, 0, 0, 0.9);
+font-weight: 500;
+}
+
+/* nav - link hover */
+
+.navbar-light .navbar-nav .nav-link.link1:hover, .navbar-light .navbar-nav .nav-link.link1:focus {
+  color: #EDBBB4;
+}
+
+.navbar-light .navbar-nav .nav-link.link2:hover, .navbar-light .navbar-nav .nav-link.link2:focus {
+  color: #6CA6C1;
+}
+
+/* first fold */
+
+h1.title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+a.highlight0 {
+  display: inline-block;
+  color: #c5e7f5;
+  background-color: rgba(227,246,255,0);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+  display: inline-block;
+}
+
+a.highlight0:hover, a.highlight0:focus {
+  color: #fff;
+}
+
+
+a.highlight1 {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+}
+
+a.highlight1:hover, a.highlight1:focus {
+  color: #EDBBB4;
+}
+
+a.highlight2 {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+}
+
+a.highlight2:hover, a.highlight2:focus {
+  color: #FFE66D;
+}
+
+p.desc {
+  color: #4c5866;
+  font-weight: 300;
+}
+
+p.desc b {
+  font-weight: 500;
+}
+
+
+/* content - featured case studies */ 
+
+#recentwork {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  color: #b5c2c9;
+}
+  /* this class is to fix the problem of the fixed navbar covering up content when scrolling to an anchor link */
+
+#recentwork:before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
+}
+
+a.case1 {
+  text-decoration: none;
+  color: #383838
+}
+
+a.case1:hover, a.case1:focus {
+ color: #d1a6a0;
+}
+
+a.case2 {
+  text-decoration: none;
+  color: #383838
+}
+
+a.case2:hover, a.case2:focus {
+ color: #6CA6C1;
+}
+
+a.case3 {
+  text-decoration: none;
+  color: #383838
+}
+
+a.case3:hover, a.case3:focus {
+ color: #BC4B51;
+}
+
+p.tags {
+  color: #7A7E8B;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-top: 2em;
+}
+
+.imgcontainer{
+  margin: 5%;
+  transition: all 0.3s;
+}
+  
+.imgcontainer:hover, .imgcontainer:focus {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  box-shadow: 0 10px 25px 5px rgba(0,0,0,0.05);
+}
+  
+img.img-fluid.case {
+  border-radius: 8px;
+}
+
+
+  
+
+/* button */
+
+.button {
+  margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+  .button {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  }
+}
+
+.buttonbar {
+  display: inline-block;
+  height: 13px;
+  width: 6px;
+  vertical-align: middle;
+  border-left: 6px solid #383838;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.buttontext {
+  text-transform: lowercase;
+  color: #383838;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.09rem;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.button a:hover .button a:focus {
+  color: #383838;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.button a:hover .buttonbar, .button a:focus .buttonbar {
+  border-left: 14px solid #509B95;
+}
+
+/* case studies */
+
+h2.hero {
+  font-weight: 700;
+}
+
+.imgcontainer__hero {
+  margin: 10%;
+}
+
+.desc__hero {
+  line-height: 1.6rem;
+  letter-spacing: 0.02rem;
+  color: #7a7e8b;
+}
+
+.hmw {
+  font-weight: 500;
+  color: #383838;
+}
+
+.client {
+  color: #b6b6b6;
+}
+
+/* NDA */
+
+.nda {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #acacac;
+  color: #acacac;
+  font-weight: 500;
+  padding: 1em;
+  margin: 3em;
+  width: fit-content;
+}
+
+/* footer */
+
+footer p {
+  color: #888888;
+  font-weight: 400;
+
+}
+
+a.email {
+  color: #383838;
+  font-weight: 500;
+}
+
+a.email:hover, a.email:focus {
+  color: #6CA6C1;
+}
