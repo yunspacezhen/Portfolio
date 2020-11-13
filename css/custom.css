@@ -273,6 +273,8 @@ h2.hero {
 }
 
 .hmw {
+  line-height: 1.6rem;
+  letter-spacing: 0.02rem;
   font-weight: 500;
   color: #383838;
 }
