@@ -16,7 +16,11 @@ p {
 }
 
 .bg-lightblue {
-  background-color: #f7fcff !important;
+  background-color: #f7faff !important;
+}
+
+.bg-lightteal {
+  background-color: #eaf3f7 !important;
 }
 
 .bg-lightpeach {
@@ -274,7 +278,7 @@ h2.hero {
 }
 
 .client {
-  color: #b6b6b6;
+  color: #969696;
 }
 
 /* NDA */
@@ -299,7 +303,7 @@ footer p {
 }
 
 a.email {
-  color: #383838;
+  color: #4e75a8;
   font-weight: 500;
 }
 
