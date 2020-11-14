@@ -27,6 +27,10 @@ p {
   background-color: #FFF7F5 !important;
 }
 
+.bg-lightpink {
+  background-color: #fff7fb !important;
+}
+
 .bg-lightyellow {
   background-color: #fdfbf1 !important;
 }
@@ -93,6 +97,13 @@ h1.title {
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
+}
+
+.outline {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000, -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
 }
 
 a.highlight0 {
@@ -219,7 +230,7 @@ img.img-fluid.case {
 
 @media only screen and (min-width: 768px) {
   .button {
-  margin-top: 6em;
+  margin-top: 4em;
   margin-bottom: 2em;
   }
 }
