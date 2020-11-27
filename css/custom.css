@@ -103,14 +103,17 @@ font-weight: 500;
 
 .navbar-light .navbar-nav .nav-link.link1:hover, .navbar-light .navbar-nav .nav-link.link1:focus {
   color: #EDBBB4;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link.link2:hover, .navbar-light .navbar-nav .nav-link.link2:focus {
   color: #6CA6C1;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link.link3:hover, .navbar-light .navbar-nav .nav-link.link3:focus {
-  color: #5ab39f;
+  color: #47a38f;
+  font-weight: 500;
 }
 
 
