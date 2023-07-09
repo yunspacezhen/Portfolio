@@ -325,6 +325,11 @@ h2.hero {
   font-weight: 700;
 }
 
+h4.headergrey {
+  font-weight: 600;
+  color: #BCBCBC;
+}
+
 .imgcontainer__hero {
   margin: 10%;
 }
